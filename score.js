@@ -40,10 +40,11 @@ async function getScore(url) {
 ;(async () => {
   await init()
   let settings = [
-    {ticksPerSecond: 60, drawModulo: 50},
-    {ticksPerSecond: 90, drawModulo: 50},
-    {ticksPerSecond: 120, drawModulo: 50},
-    {ticksPerSecond: 240, drawModulo: 50},
+    // {ticksPerSecond: 2000, drawModulo: 5},
+    {ticksPerSecond: 1000, drawModulo: 5},
+    {ticksPerSecond: 90, drawModulo: 5},
+    {ticksPerSecond: 120, drawModulo: 5},
+    {ticksPerSecond: 240, drawModulo: 5},
     {ticksPerSecond: 60, drawModulo: 3},
     {ticksPerSecond: 90, drawModulo: 3},
     {ticksPerSecond: 120, drawModulo: 3},

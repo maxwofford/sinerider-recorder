@@ -16,7 +16,7 @@ It'll score the array of level URLs `levels`, which I pulled from the sinerider 
 
 **Results**
 
-I found that with the provided test level I reached diminishing returns at 240 ticks per second and a draw modulo of 5. I didn't end up pushing much further, but I think it could run even faster. At this speed it took 16.6 seconds to score a 25.07 second solution, so it's already doing pretty well.
+I found that with the provided test level I reached diminishing returns at 1000 ticks per second and a draw modulo of 5. I didn't end up pushing much further, but I think it could run even faster. At this speed it took 16.6 seconds to score a 25.07 second solution, so it's already doing pretty well.
 
 I noticed the page started to break once I reached 50 draw modulo with 90 ticks per second, so we should be careful of raising this too much further.
 
