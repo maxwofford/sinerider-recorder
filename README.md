@@ -74,3 +74,7 @@ _Warning: I ran into an issue where video files wouldn't record correctly if I o
 **Results**
 
 I found the best consistent renderings at 60 fps with a draw modulo of 2. Complex solutions looked good at a draw modulo of 3, but simple renderings looked better at modulo 1.
+
+## Screencasting video
+
+This is an experiment using Browserless' screencast API. It hasn't been fine-tuned like the other tests in this repo and is just provided as an example.
